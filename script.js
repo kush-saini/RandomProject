@@ -794,13 +794,24 @@ generateBtn.addEventListener('click', function () {
     document.getElementById("emoji-container").textContent = output;
 })
 
+const generateBtnOne = document.getElementById('btn');
+
+ generateBtnOne.addEventListener('click', function () {
+  var arr = [];
+for (let i = 0; i<5; i++) {  
+    let randomIndex = Math.floor((Math.random() * emoji.length));
+    let randomElement = emoji[randomIndex] + "</br>" + "</br>";
+    arr.push(randomElement);
+} 
+document.getElementById("emoji-container").innerHTML = arr;
+})
 
 
 const generateBtn2 = document.getElementById('btn2');
 
  generateBtn2.addEventListener('click', function () {
   var arr = [];
-for (let i = 0; i<2; i++) {  
+for (let i = 0; i<10; i++) {  
     let randomIndex = Math.floor((Math.random() * emoji.length));
     let randomElement = emoji[randomIndex] + "</br>" + "</br>";
     arr.push(randomElement);
@@ -812,7 +823,7 @@ const generateBtn3 = document.getElementById('btn3');
 
  generateBtn3.addEventListener('click', function () {
   var arr = [];
-for (let i = 0; i<3; i++) {  
+for (let i = 0; i<25; i++) {  
     let randomIndex = Math.floor((Math.random() * emoji.length));
     let randomElement = emoji[randomIndex] + "</br>" + "</br>";
     arr.push(randomElement);
@@ -824,7 +835,7 @@ const generateBtn4 = document.getElementById('btn4');
 
  generateBtn4.addEventListener('click', function () {
   var arr = [];
-for (let i = 0; i<4; i++) {  
+for (let i = 0; i<35; i++) {  
     let randomIndex = Math.floor((Math.random() * emoji.length));
     let randomElement = emoji[randomIndex] + "</br>" + "</br>";
     arr.push(randomElement);
@@ -836,7 +847,7 @@ const generateBtn5 = document.getElementById('btn5');
 
  generateBtn5.addEventListener('click', function () {
   var arr = [];
-for (let i = 0; i<5; i++) {  
+for (let i = 0; i<50; i++) {  
     let randomIndex = Math.floor((Math.random() * emoji.length));
     let randomElement = emoji[randomIndex] + "</br>" + "</br>";
     arr.push(randomElement);

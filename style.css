@@ -215,3 +215,17 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
 }
+
+.responsive {
+  width: -webkit-fill-available;
+  height: auto;
+}
+
+@media (min-width: 1281px) {
+  
+  .responsive {
+    width: auto;
+    height: auto;
+  }
+  
+}

@@ -194,12 +194,12 @@ body {
 }
 
 .plaintext {
-  text-align: center;
+  text-align: justify;
   font-size: 15px;
   margin-top: 10px;
   font-weight: 500;
   color: #2a1f1f;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .container2 {
